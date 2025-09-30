@@ -35,6 +35,20 @@ npm i
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+```
+npx cap add ios      # For iOS (requires Mac + Xcode)
+npx cap add android  # For Android (requires Android Studio)
+Build & Sync:
+
+
+npm run build
+npx cap sync
+Run on Device:
+
+
+npx cap run ios      # Opens Xcode
+npx cap run android  # Opens Android Studio
+```
 
 **Edit a file directly in GitHub**
 
